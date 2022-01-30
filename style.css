@@ -1,0 +1,254 @@
+ 
+body{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+}
+.root{
+    background-image:url("back01.jpg");
+    background: linear-gradient(top,#0000,transparent);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 00.6rem solid#111;
+}
+.navbar{
+    padding-top: 1%;
+    padding-left: 2vw;
+    padding-right: 4vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.img-logo{
+    width: 14%;
+    color: red;
+
+}
+.btn-sign-in{
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #e50914;
+    border-radius: 5px;
+    color: white;
+    cursor:pointer;
+    width: fit-content;
+}
+.main-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-title-container{
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+.main-title{
+    font-size: 3.2em;
+    margin-bottom:  14px; 
+    font-family: Arial, Helvetica, sans-serif ;
+    line: height 1.1em;;
+}  
+.main-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    
+}
+.main-call-to-action{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 1.2em;
+}
+.main-email-container{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: min-content
+    background-color:white;
+    display: flex;
+    
+
+}
+.main-email-container-input{
+    width:fit-content;  
+    outline:none;
+    border: none;
+    padding: 20px 10px;
+    font-size: 1em;
+
+}
+.btn-get-started{
+    cursor: pointer;
+    padding: 20px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    background-color: red;
+    color: white;
+    font-size: 1em;
+    
+}
+.btn-get-started:hover{
+     
+    background: color #ff0b1f;
+    
+    
+}
+.part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 4rem;
+    border-bottom: 0.6rem solid #111;
+
+
+}
+.part1.talk{
+    width: 40%;
+}
+.h1{
+    font-size: 3.3rem;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.p{
+    font-size: 1.7rem;
+    color:#fff;
+}
+.part1.img{
+    width: 45%;
+}
+.part.img{
+    width: 100%;
+}
+.list{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+.h1{
+    color: #fff;
+    font-size: 3rem;
+    padding: 3rem 0 4rem 0;
+}
+.title{
+    background: #303030;
+    padding: 20px 30px ;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+.icon{
+    width: 20px;
+    position: relative;
+}
+.icon::before,.icon::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background: #fff;
+    top:-1.5px;
+}
+.icon::after{
+    transform: rotate(90deg);
+    transition: 0.5s linear;
+}
+.text{
+    background: #303030;
+    line-height: 35px;
+    margin: 3px 0;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 400;
+    height: 0;
+    opacity: 0;
+
+}
+.item:target .text{
+    opacity:1;
+    height: auto;
+    padding: 20px 30px;
+    margin: 0;
+    border-top: 2px solid #000;
+    margin-bottom: 6px;
+}
+.item:target .icon::after{
+    transform:rotateY(90deg);
+
+}
+.last{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    padding: 15px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    color:white;
+    font-size: 1em;
+    border-style: none;
+    cursor: pointer;
+
+}
+.last{
+    border-bottom: 00.6rem solid#111;
+}
+.button{
+    cursor: pointer;
+    padding: 10px 25px;
+    background-color: red;
+    border-style: none;
+    color: white;
+
+    
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 4rem 0;
+
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 25%;
+
+}
+.li{
+    color: #ccc;
+    text-decoration: none;
+}
+.li:hover{
+    border-bottom: 1px solid#ccc;
+    
+}
+.l{
+    padding: 7px 0;
+}
+
+
